@@ -23,7 +23,7 @@ const config = {
 	devServer: {
 		bonjour: true,
 		static: {
-			directory: path.join(__dirname, 'public'),
+			directory: path.join(__dirname, './public'),
 		},
 		open: true,
 		host: 'localhost',
