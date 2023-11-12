@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"paths": {
+			"@components": ["src/components/"],
+			"@src/*": ["src/*"]
+		}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["**/*.spec.ts"]
+}
