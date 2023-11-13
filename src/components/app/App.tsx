@@ -37,7 +37,7 @@ function App() {
 		<>
 			{pathname === '/' && isInitialEnter && <Navigate to={locationPath} />}
 			<Header headerProps={memoHeaderProps} />
-			<MainPage />
+			<MainPage currentPath={pathname} />
 			<Footer />
 		</>
 	);

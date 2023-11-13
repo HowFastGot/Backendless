@@ -1,0 +1,57 @@
+footer {
+	@extend .flex;
+	gap: 4rem;
+	position: relative;
+
+	padding: 0px 30px;
+	background-color: $header_bg;
+	line-height: 30px;
+
+	text-align: center;
+	color: $white;
+	font-weight: 900;
+
+	span {
+		flex: 1 1 100%;
+	}
+
+	nav {
+		@extend .flex;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		animation: animate 2s ease-in-out 1s infinite;
+
+		svg {
+			animation: bounce 2s ease 1s infinite;
+			fill: $white;
+		}
+	}
+}
+
+@keyframes animate {
+	from {
+		opacity: 0.8;
+		color: $white;
+	}
+	to {
+		opacity: 1;
+		color: $m_green;
+	}
+}
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+		fill: $white;
+	}
+	25% {
+		transform: translateY(-5px);
+		fill: $white;
+	}
+
+	100% {
+		transform: translateY(0px);
+		fill: $m_green;
+	}
+}

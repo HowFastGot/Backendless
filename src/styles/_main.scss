@@ -1,4 +1,7 @@
 main {
-	background-color: $main_bg;
+	background: $main_grad;
 	color: $main_text;
+	text-align: left;
+	font-size: 35px;
+	font-weight: 900;
 }

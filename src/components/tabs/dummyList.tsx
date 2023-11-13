@@ -2,11 +2,7 @@ function DummyList() {
 	return (
 		<ul>
 			<span>DummyList</span>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
-			<li>4</li>
-			<li>5</li>
+			<li style={{ fontSize: 22, marginTop: 15, listStyle: 'inside' }}>Item</li>
 		</ul>
 	);
 }

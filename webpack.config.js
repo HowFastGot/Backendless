@@ -29,7 +29,7 @@ const config = {
 		host: 'localhost',
 		port: 3000,
 		liveReload: true,
-		watchFiles: ['/src/**/*.tsx', 'public/**/*', './src/index.html', 'src/styles/*.scss'],
+		watchFiles: ['/src/**/*.tsx', './src/index.html', 'src/styles/*.scss'],
 	},
 	devtool: 'inline-source-map',
 	plugins: [
